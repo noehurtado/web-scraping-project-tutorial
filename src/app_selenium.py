@@ -98,3 +98,5 @@ plt.ylabel('Revenue')
 current_values = (plt.gca().get_yticks())/1000000000
 plt.gca().set_yticklabels(['{:,.2f} B'.format(x) for x in current_values])
 plt.show()
+
+driver.quit()
